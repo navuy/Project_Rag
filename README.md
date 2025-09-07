@@ -65,7 +65,7 @@ API_BASE_URL = "http://127.0.0.1:8001"
 
 Change if your backend runs elsewhere.
 
-IMPORTANT NOTE: Preferably run as docker
+IMPORTANT NOTE: Preferably run as docker (docker files given)
 
 ---
 
