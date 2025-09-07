@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  rag-api:
+    image: rag-api:1.0.0
+    container_name: rag-api
+    ports:
+      - "8001:8001"
+    volumes:
+      - ./.chromadb:/app/.chromadb
+  
+  rag-ui:
+    image: rag-ui:1.0.1
+    container_name: rag-ui
+    ports:
+      - "5000:5000"
